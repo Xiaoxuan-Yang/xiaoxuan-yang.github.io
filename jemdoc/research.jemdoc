@@ -1,0 +1,18 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+= Research
+
+== Challenges of In-Memory Computing Systems for Neural Networks: 
+- Software training: existing tradeoff between generalization and robustness.
+- Hardware architecture: some of network functionalities cannot be efficiently supported by existing designs.
+- Hardware inferencing: device stochastic noise will decrease the inferencing accuracy.
+- Hardware training: each training iteration will rewrite the cells on crossbar and may wear out the hardware.
+
+== My Ph.D. Thesis Works and Contributions:
+- Generalized algorithm enhances robustness against weight perturbation.
+- Architecture design enables efficient Transformer in PIM system.
+- Systematic framework builds robust and efficient PIM System.
+- Hardware-software co-design helps reliable in-memory training design.
+
+More detials can be found in this [misc/poster.pdf poster].
+
+
