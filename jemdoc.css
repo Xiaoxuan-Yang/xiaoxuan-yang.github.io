@@ -380,3 +380,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
