@@ -2,7 +2,7 @@
 
 Xiaoxuan Yang's Personal Website
 
-[Xiaoxuan Yang](https://xiaoxuan-yang.github.io/) is a research scientist and an incoming assistant professor at the University of Virginia.
+[Xiaoxuan Yang](https://xiaoxuan-yang.github.io/) is an assistant professor at the University of Virginia.
 
 ## Acknowledgement
 
