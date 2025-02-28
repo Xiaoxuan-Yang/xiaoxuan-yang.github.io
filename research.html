@@ -25,36 +25,25 @@
 <div class="menu-item"><a href="index.html" class="current">Home</a></div>
 <div class="menu-item"><a href="research.html">Research</a></div>
 <div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="students.html">Students</a></div>
 <div class="menu-item"><a href="teaching.html">Teaching</a></div>
 <div class="menu-item"><a href="activities.html">Activities</a></div>
+<div class="menu-item"><a href="awards.html">Awards</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
 <h1>Research</h1>
 </div>
-<h2>Challenges of In-Memory Computing Systems for Neural Networks </h2>
+
+<h2>Trends </h2>
 <ul>
-<li><p>Software training: existing tradeoff between generalization and robustness.</p>
+<li><p>Scalable Neuromorphic Computing System Design. Compared with the general-purpose processors, the existing accelerators have made a leap by optimizing the basic logic units for tensor operations and the data flows in brain-inspired neural network architectures. Nevertheless, to approach the computational performance, scale, and efficiency of the brain, innovation of more scalable and biologically-plausible computing systems is necessary. On the software side, the sequential backpropagation (BP) algorithm prevents efficient parallelization and fast convergence. Non-BP method like Direct Feedback Alignment (DFA) resolves inherent layer dependencies by directly passing the error from the output to each layer. We aim to present a more comprehensive analysis of scalable neuromorphic computing system design.</p>
 </li>
-<li><p>Hardware architecture: some of network functionalities cannot be efficiently supported by existing designs.</p>
+<li><p>Leverage/Harness Variations and Outperform Noise-Free Cases. Variation appears to be a negative attribute in image classification tasks. However, variations can be a positive factor for the networks that are “in need of” noise. For example, in the Bayesian neural network (BNN), the weight is a distribution instead of a fixed value. We have conducted some preliminary studies on this topic and successfully harnessed the noise on the photonic phase-change memory to build BNN. This research trend can work with specific networks, such as generative adversarial networks (GAN).</p>
 </li>
-<li><p>Hardware inferencing: device stochastic noise will decrease the inferencing accuracy.</p>
+<li><p>Efficient Full-Stack Design for Emerging Applications. The efficiency problem is not only at the hardware level; thus, looking into the entire stack from the application and device to the compiler and software is essential. It is important to construct the compiler to automatically translate the model to the hardware with an optimized data flow in order to enable the full-stack design with high efficiency. Furthermore, the hardware-level data preload/reuse scheme and algorithm-level pruning, quantization, sampling, and sparse encoding techniques can work together toward full-stack efficiency. In addition, our group research on effective PIM design can be open-sourced and organized into modular blocks for the benefit of other researchers.</p>
 </li>
-<li><p>Hardware training: each training iteration will rewrite the cells on crossbar and may wear out the hardware.</p>
-</li>
-</ul>
-<h2>My Ph.D. Thesis Works and Contributions </h2>
-<ul>
-<li><p>Generalized algorithm enhances robustness against weight perturbation.</p>
-</li>
-<li><p>Architecture design enables efficient Transformer in PIM system.</p>
-</li>
-<li><p>Systematic framework builds robust and efficient PIM System.</p>
-</li>
-<li><p>Hardware-software co-design helps reliable in-memory training design.</p>
-</li>
-</ul>
-<p>More details can be found in this <a href="misc/poster.pdf">poster</a>.</p>
+<p>Part of previous research is presented in this <a href="misc/poster.pdf">poster</a>.</p>
 </td>
 </tr>
 </table>
