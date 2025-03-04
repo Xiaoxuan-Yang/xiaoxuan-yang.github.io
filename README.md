@@ -1,6 +1,4 @@
-# xiaoxuan-yang
-
-Xiaoxuan Yang's Personal Website
+# Xiaoxuan Yang's Personal Website
 
 [Xiaoxuan Yang](https://xiaoxuan-yang.github.io/) is an assistant professor at the University of Virginia.
 
